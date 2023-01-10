@@ -1,0 +1,43 @@
+<mxfile host="65bd71144e">
+    <diagram id="u8LpsDMDNObCgkHkbPgs" name="Page-1">
+        <mxGraphModel dx="299" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="INTEGRANTE  " style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="60" width="370" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="ID: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2">
+                    <mxGeometry y="26" width="370" height="26" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Nombre: String&#10;edad: int&#10;sexo: char&#10;&#10;&#10;    " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2">
+                    <mxGeometry y="52" width="370" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="+Integrante (id: int, nombre:String, edad: int, sexo:char)&#10;&#10;&#10;&#10;&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="2">
+                    <mxGeometry y="100" width="370" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Persona" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="310" width="210" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="+ Persona()&lt;br&gt;&lt;br&gt;+newPersona(Persona p): void" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="355" width="180" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;&lt;Interface&gt;&gt;&#10;Actividad  " style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="590" y="60" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="+add Amigo(): void&lt;br&gt;&lt;br&gt;+addAmigoDe(): void&lt;br&gt;&lt;br&gt;+showAmigo():void" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="595" y="80" width="130" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="App" style="swimlane;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="300" width="200" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="+User: String&lt;br&gt;+Tema:String" style="whiteSpace=wrap;html=1;" vertex="1" parent="11">
+                    <mxGeometry y="35" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="+ main(String[]args): void&lt;br&gt;+ menu(): Menu&lt;br&gt;+logig(): boolean" style="whiteSpace=wrap;html=1;" vertex="1" parent="11">
+                    <mxGeometry y="105" width="180" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
